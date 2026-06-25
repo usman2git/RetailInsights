@@ -31,17 +31,17 @@ The dataset includes:
 Key preprocessing steps performed:
 
 ### ✔ Missing Values  
-- Removed rows with missing **Description** (product info required for analysis)  
-- Retained rows with missing **CustomerID** (not essential for business questions)
+- Removed rows with missing **Description**  
+- Retained rows with missing **CustomerID**
 
 ### ✔ Duplicate Records  
-- Identified and removed **5,225 duplicate rows** to prevent double‑counting
+- Removed **5,225 duplicate rows** to avoid double‑counting
 
 ### ✔ Data Type Fixes  
-- Converted `InvoiceDate` to proper datetime format
+- Converted `InvoiceDate` to datetime format
 
 ### ✔ Feature Engineering  
-Created new columns to support time‑based analysis:
+Created new columns:
 
 - `Year`  
 - `Month`  
@@ -54,59 +54,46 @@ Created new columns to support time‑based analysis:
 
 ## 📊 Dashboard Features (Plotly + Dash)
 
-The interactive dashboard includes:
-
 ### **1. KPI Cards**
 - **Total Revenue**  
 - **Total Orders**  
 - **Average Transaction Value**
 
-These KPIs update instantly when filters change.
-
 ### **2. Filters**
-Users can filter the entire dashboard by:
-
-- **Month**  
-- **Country**  
-- **Product**
+- Month  
+- Country  
+- Product  
 
 ### **3. Visualizations**
-#### **Top Products by Revenue (Bar Chart)**
-Shows highest‑earning products, helping identify key revenue drivers.
-
-#### **Revenue Trend Over Time (Line Chart)**
-Reveals daily revenue patterns, seasonality, and sales spikes.
-
-#### **Revenue Share by Country (Pie Chart)**
-Highlights which countries contribute most to total revenue  
-(UK is the dominant market).
-
-#### **Revenue Distribution (Box Plot)**
-Shows variability and outliers — identifying unusually large transactions.
+- **Top Products by Revenue (Bar Chart)**  
+- **Revenue Trend Over Time (Line Chart)**  
+- **Revenue Share by Country (Pie Chart)**  
+- **Revenue Distribution (Box Plot)**  
 
 ---
 
 ## 🧠 Key Insights  
-- The **United Kingdom** generates the majority of total revenue.  
-- A few products (e.g., *REGENCY CAKESTAND 3 TIER*) contribute disproportionately to sales.  
-- Revenue shows clear **peaks and dips**, indicating seasonal or promotional effects.  
-- Most transactions are small, but a few **high‑value outliers** significantly impact revenue.
+- The **United Kingdom** contributes the highest share of revenue.  
+- A few products generate disproportionately high revenue.  
+- Revenue shows clear **seasonal peaks and dips**.  
+- Most transactions are small, with a few **high‑value outliers**.
 
 ---
 
 ## 🛠️ Technologies Used  
 - **Python**  
-- **Pandas** – Data cleaning & manipulation  
-- **NumPy** – Numerical operations  
-- **Matplotlib & Seaborn** – Initial EDA visualizations  
-- **Plotly Express** – Interactive charts  
-- **Dash** – Web‑based interactive dashboard  
-- **Jupyter Notebook** – Development environment  
+- **Pandas**  
+- **NumPy**  
+- **Matplotlib & Seaborn**  
+- **Plotly Express**  
+- **Dash**  
+- **Jupyter Notebook**
 
 ---
 
-## 🚀 How to Run the Dashboard
+## 🚀 Installation & Setup
 
 ### **1. Clone the repository**
 ```bash
-git clone https://github.com
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
