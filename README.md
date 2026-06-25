@@ -97,3 +97,13 @@ Created new columns:
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+
+
+## Install dependencies
+bash
+pip install -r requirements.txt
+## ▶️ Running the Dash App
+Start the dashboard
+python app.py
+##  Open in your browser
+http://127.0.0.1:8050/
