@@ -69,7 +69,8 @@ Created new columns:
 - **Revenue Trend Over Time (Line Chart)**  
 - **Revenue Share by Country (Pie Chart)**  
 - **Revenue Distribution (Box Plot)**  
-<img width="1872" height="817" alt="image" src="https://github.com/user-attachments/assets/cdcf77ed-c954-4340-b893-8985c41f1223" />
+
+<img width="1872" height="817" alt="image" src="https://github.com/user-attachments/assets/170ade9e-e419-4f6c-88ba-d7cc61753b6e" />
 
 ---
 
